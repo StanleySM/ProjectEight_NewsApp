@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/list_view"
+    android:id="@+id/activity_main"
+    tools:context="com.example.android.projecteight_newsapp.MainActivity">
+
+            <TextView style="@style/refresh_text"
+            android:text="@string/refresh" />
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/refresh_move"
+                style="@style/swipe_layout">
+
+                    <ListView
+                        android:id="@+id/list_view"
+                        style="@style/list_view">
+
+                    </ListView>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Newsletters</string>
+    <string name="button">Refresh news</string>
+    <string name="no_internet">There is no internet connection...</string>
+    <string name="news_title">News Title</string>
+    <string name="authors_name">Authors name</string>
+    <string name="date_information">Date</string>
+    <string name="refresh">For refresh swipe up</string>
+    <string name="category_info">Categoryp</string>
+
+
+
+</resources>

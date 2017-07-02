@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/item_list_body">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        style="@style/card_view">
+
+        <LinearLayout
+            style="@style/card_view_body">
+
+            <TextView
+                android:id="@+id/news_title"
+                style="@style/news_title"
+                tools:text="@string/news_title" />
+            <TextView
+                android:id="@+id/news_author"
+                style="@style/news_author"
+                tools:text="@string/authors_name" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/news_section"
+                    style="@style/news_section"
+                    tools:text="@string/category_info" />
+                <TextView
+                    android:id="@+id/news_date"
+                    style="@style/news_date"
+                    android:layout_weight="1"
+                    tools:text="@string/date_information" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
